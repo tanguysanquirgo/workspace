@@ -15,6 +15,7 @@
     "moondevaa.DarkGreenJungle",
     "ms-azuretools.vscode-docker",
     "ms-vscode-remote.remote-containers",
-    "s-nlf-fh.glassit"
+    "oderwat.indent-rainbow",
+    "s-nlf-fh.glassit",
   ]
 }
