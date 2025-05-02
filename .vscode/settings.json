@@ -1,0 +1,41 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [{
+      "cmd": "node ${workspaceFolder}/.vscode/.runonsave.js ${file}",
+      "match": ".(js|json|ts)$"
+    }]
+  },
+  "vscode-neovim.ctrlKeysForInsertMode": [
+    "d",
+    "h",
+    "m",
+    "o",
+    "r",
+    "t",
+    "u",
+    "w"
+  ],
+  "vscode-neovim.ctrlKeysForNormalMode": [
+    "b",
+    "d",
+    "e",
+    "h",
+    "i",
+    "k",
+    "l",
+    "m",
+    "o",
+    "r",
+    "t",
+    "u",
+    "w",
+    "/",
+    "]",
+    "right",
+    "left",
+    "up",
+    "down",
+    "backspace",
+    "delete"
+  ]
+}
