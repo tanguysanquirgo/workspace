@@ -13,7 +13,6 @@
     "r",
     "t",
     "u",
-    "w"
   ],
   "vscode-neovim.ctrlKeysForNormalMode": [
     "b",
@@ -28,7 +27,6 @@
     "r",
     "t",
     "u",
-    "w",
     "/",
     "]",
     "right",
