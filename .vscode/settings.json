@@ -71,7 +71,6 @@
     "u",
   ],
   "vscode-neovim.ctrlKeysForNormalMode": [
-    "b",
     "d",
     "e",
     "h",
