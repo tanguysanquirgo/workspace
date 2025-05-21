@@ -1,3 +1,3 @@
-import { installShellAliases } from './shell-aliases';
+import { installShellAliases } from './shell-aliases'
 
-installShellAliases();
+installShellAliases()

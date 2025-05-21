@@ -1,18 +1,17 @@
 [
   "# Advanced Package Tool",
   "aptuu=sudo apt update && sudo apt upgrade",
-
+  
   "# Docker",
   "dcd=docker compose down",
   "dcdu=docker compose down && docker compose up",
   "dcp=docker compose pull",
   "dcu=docker compose up",
   "dl=docker login",
-
+  
   "# Git",
   "gc=git clone",
   "gp=git pull",
-
+  
   "# Task",
-  "t=task"
-]
+  "t=task"]
