@@ -59,6 +59,7 @@
     "xlocmon": "cpp",
     "xlocnum": "cpp",
     "xloctime": "cpp" },
+  "search.useIgnoreFiles": false,
   "vscode-neovim.ctrlKeysForInsertMode": [
     "d",
     "h",
