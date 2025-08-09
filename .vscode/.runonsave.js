@@ -4,6 +4,7 @@ const filePath = process.argv[2]
 
 const lines = fs.readFileSync(filePath, 'utf8').split(/\r?\n/)
 
+for (let i = 0; i < 99; i++) console.log('');
 for (let i = 0; i < lines.length - 1; i++) {
   if (/^\s*$/.test(lines[i])) {
     const match = lines[i + 1].match(/^(\s*)/)
