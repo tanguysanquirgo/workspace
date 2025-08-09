@@ -1,4 +1,6 @@
 {
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
   "emeraldwalk.runonsave": {
     "commands": [{
       "cmd": "node ${workspaceFolder}/.vscode/.runonsave.js ${file}",
@@ -61,4 +63,10 @@
     "xlocmon": "cpp",
     "xlocnum": "cpp",
     "xloctime": "cpp" },
-  "search.useIgnoreFiles": false }
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "glassit.alpha": 250,
+  "search.useIgnoreFiles": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right" }
