@@ -4,7 +4,7 @@
   "emeraldwalk.runonsave": {
     "commands": [{
       "cmd": "node ${workspaceFolder}/.vscode/.runonsave.js ${file}",
-      "match": ".(cpp|js|json|ts)$" 
+      "match": ".(cpp|js|json|md|ts)$" 
     }, {
       "cmd": "cd game && npm run lint" }]},
   "files.associations": {
