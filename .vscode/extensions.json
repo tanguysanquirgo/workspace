@@ -17,6 +17,7 @@
     "emeraldwalk.RunOnSave",
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
+    "hashicorp.terraform",
     "mechatroner.rainbow-csv",
     "meganrogge.template-string-converter",
     "ms-azuretools.vscode-containers",
