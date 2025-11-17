@@ -63,6 +63,18 @@
     "xlocmon": "cpp",
     "xlocnum": "cpp",
     "xloctime": "cpp" },
+  "folder-path-color.folders": [{
+    "color": "blue",
+    "path": "tanguysanquirgo",
+    "symbol": "ta"
+  }, {
+    "color": "cyan",
+    "path": "ansible-playbooks",
+    "symbol": "an"
+  }, {
+    "color": "cyan",
+    "path": "spa",
+    "symbol": "sp" }],
   "git.autofetch": true,
   "git.confirmSync": false,
   "glassit.alpha": 250,
