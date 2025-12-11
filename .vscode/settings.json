@@ -74,7 +74,11 @@
   }, {
     "color": "cyan",
     "path": "spa",
-    "symbol": "sp" }],
+    "symbol": "sp"
+  }, {
+    "color": "cyan",
+    "path": "tagpay",
+    "symbol": "ta" }],
   "git.autofetch": true,
   "git.confirmSync": false,
   "glassit.alpha": 250,
