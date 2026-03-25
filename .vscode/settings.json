@@ -4,9 +4,11 @@
   "emeraldwalk.runonsave": {
     "commands": [{
       "cmd": "node ${workspaceFolder}/.vscode/.runonsave.js ${file}",
-      "match": ".(cpp|js|json|md|ts)$" 
+      "match": ".(cpp|js|json|md|ts)$",
     }, {
-      "cmd": "cd game && npm run lint" }]},
+      "cmd": "cd game && npm run lint",
+    }],
+  },
   "files.associations": {
     "cctype": "cpp",
     "compare": "cpp",
@@ -62,26 +64,29 @@
     "xlocmes": "cpp",
     "xlocmon": "cpp",
     "xlocnum": "cpp",
-    "xloctime": "cpp" },
+    "xloctime": "cpp",
+  },
   "folder-path-color.folders": [{
     "color": "blue",
     "path": "tanguysanquirgo",
-    "symbol": "ta"
+    "symbol": "ta",
   }, {
     "color": "cyan",
     "path": "ansible-playbooks",
-    "symbol": "an"
+    "symbol": "an",
   }, {
     "color": "cyan",
     "path": "spa",
-    "symbol": "sp"
+    "symbol": "sp",
   }, {
     "color": "cyan",
     "path": "tagpay",
-    "symbol": "ta" }],
+    "symbol": "ta",
+  }],
   "git.autofetch": true,
   "git.confirmSync": false,
   "glassit.alpha": 250,
   "search.useIgnoreFiles": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "right" }
+  "workbench.sideBar.location": "right",
+}

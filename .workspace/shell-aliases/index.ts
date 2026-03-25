@@ -5,4 +5,5 @@ export const installShellAliases = () => {
   
   installBashAliases(shell)
   
-  console.log('\x1b[31mUnsupported shell detected\x1b[0m\n') }
+  console.log('\x1b[31mUnsupported shell detected\x1b[0m\n')
+}

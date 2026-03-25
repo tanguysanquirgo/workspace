@@ -15,20 +15,26 @@ export const installBashAliases = (shell: string) => {
       
       if (isAliasCategory) {
         bashAlias = `\n${alias}\n`
-        bashAliasCategroy = alias.substring(2) }
-      else {
+        bashAliasCategroy = alias.substring(2)
+      } else {
         bashAlias = `alias ${splitAlias[0]}='${splitAlias[1]}'\n`
         
-        console.log(`Installing ${bashAliasCategroy} alias: ${splitAlias[0]}='${splitAlias[1]}'`) }
+        console.log(`Installing ${bashAliasCategroy} alias: ${splitAlias[0]}='${splitAlias[1]}'`)
+      }
       
       fs.writeFileSync(
         path.join(process.env.HOME, '.bash_aliases'),
         bashAlias,
         {
           encoding: 'utf8',
-          flag: 'a' })
+          flag: 'a',
+        },
+      )
       
-      if (!isAliasCategory) console.log(`\x1b[32m${bashAliasCategroy} alias installed\x1b[0m`) })
+      if (!isAliasCategory) {
+        console.log(`\x1b[32m${bashAliasCategroy} alias installed\x1b[0m`)
+      }
+    })
     
     console.log(
       '\n\x1b[1m\x1b[43m' +
@@ -38,4 +44,6 @@ export const installBashAliases = (shell: string) => {
       '                                                                \n' +
       '\x1b[0m')
     
-    process.exit(0) }}
+    process.exit(0)
+  }
+}

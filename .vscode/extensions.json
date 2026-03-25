@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "Anthropic.claude-code",
     "AykutSarac.jsoncrack-vscode",
     "BrandonKirbyson.vscode-animations",
     "EditorConfig.EditorConfig",
@@ -32,4 +33,6 @@
     "tomoki1207.pdf",
     "tonybaloney.vscode-pets",
     "whatwedo.twig",
-    "wholroyd.jinja"] }
+    "wholroyd.jinja",
+  ],
+}
