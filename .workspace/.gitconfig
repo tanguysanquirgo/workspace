@@ -1,0 +1,9 @@
+[user]
+	email = sanquirgotanguy@gmail.com
+	name = tanguysanquirgo
+[includeIf "gitdir:workspace/ansible-playbooks/"]
+	path = .gitconfig-tsanquirgo
+[includeIf "gitdir:workspace/spa/"]
+	path = .gitconfig-tsanquirgo
+[includeIf "gitdir:workspace/tagpay/"]
+	path = .gitconfig-tsanquirgo
