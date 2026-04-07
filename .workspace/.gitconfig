@@ -3,6 +3,10 @@
 	name = tanguysanquirgo
 [includeIf "gitdir:workspace/ansible-playbooks/"]
 	path = .gitconfig-tsanquirgo
+[includeIf "gitdir:workspace/api-tests/"]
+	path = .gitconfig-tsanquirgo
+[includeIf "gitdir:workspace/release-dashboard/"]
+	path = .gitconfig-tsanquirgo
 [includeIf "gitdir:workspace/spa/"]
 	path = .gitconfig-tsanquirgo
 [includeIf "gitdir:workspace/tagpay/"]
